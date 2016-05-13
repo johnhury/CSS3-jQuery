@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link href='http://fonts.useso.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css' />
+<meta name="keywords" content="JS代码,图片特效,JS广告代码,JS特效代码" />
+<meta name="description" content="此代码内容为CSS3+jQuery鼠标跟随图片悬停效果，属于站长常用代码，更多图片特效代码请访问懒人图库JS代码频道。" />
+<title>CSS3+jQuery鼠标跟随图片悬停效果_懒人图库</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/lrtk.css" rel="stylesheet" type="text/css" />
+<script src="js/modernizr.custom.97074.js"></script>
+
+</head>
+<body>
+<!-- 代码 开始 -->
+        <div class="container">
+			<header class="clearfix">
+				<span>Tips &amp; Tricks</span>
+				<h1>CSS3+jQuery鼠标跟随图片悬停效果</span></h1>
+				<nav class="codrops-demos">
+					<a class="current-demo" href="index.html">Default</a>
+					<a href="index2.html">Delay</a>
+					<a href="index3.html">Inverse</a>
+				</nav>
+				<p>Moving from one thumb to the other will immediately trigger the sliding of the info box.</p>
+			</header>
+			<section>
+				<ul id="da-thumbs" class="da-thumbs">
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/1.jpg" />
+							<div><span>Menu by Simon Jensen</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/2.jpg" />
+							<div><span>TN Aquarium by Charlie Gann</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/3.jpg" />
+							<div><span>Mr. Crabs by John Generalov</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/4.jpg" />
+							<div><span>Gallery of Mo 2.Mo logo by Adam Campion</span></div>
+						</a>
+					</li>
+					<li>	
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/5.jpg" />
+							<div><span>Ice Cream - nom nom by Eight Hour Day</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/6.jpg" />
+							<div><span>My Muse by Zachary Horst</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/7.jpg" />
+							<div><span>Natalie & Justin Cleaning by Justin Younger</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/8.jpg" />
+							<div><span>App Preview by Ryan Deshler</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/9.jpg" />
+							<div><span>Cornwall Map by Katharina Maria Zimmermann</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/10.jpg" />
+							<div><span>final AD logo by Annette Diana</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/11.jpg" />
+							<div><span>Land Those Planes by Lee Ann Marcel</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.lanrentuku.com/">
+							<img src="images/12.jpg" />
+							<div><span>Seahorse by Trevor Basset</span></div>
+						</a>
+					</li>
+				</ul>
+			</section>
+        </div>
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+		<script type="text/javascript">
+			$(function() {
+			
+				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+			});
+		</script>
+<!-- 代码 结束 -->
+
+<div style="text-align:center;margin:50px 0">
+<p>来源：<a href="http://www.lanrentuku.com/" target="_blank">懒人图库</a>　代码整理：<a href="http://www.lanrentuku.com/" target="_blank">懒人图库</a>　感谢：<a href="http://zheye.cc/" target="_blank">折页网</a></p>
+<p>＊尊重他人劳动成果，转载请自觉注明出处！注：此代码仅供学习交流，请勿用于商业用途。</p>
+<p></p>
+<p><p>CSS3+jQuery鼠标跟随图片悬停效果，能够判断鼠标移入的方向，遮罩可以按移入的方向出现，也可以从反方向出现，可设定延迟值。兼容主流浏览器，懒人图库推荐下载！</p><p><br /></p><p>使用方法：</p><p>1、在head区域引入样式表文件lrtk.css, style.css</p><p>2、引入jquery.min.js和modernizr.custom.97074.js, jquery.hoverdir.js(函数库)</p><p>3、引入HTML &lt;div class=&quot;container&quot;&gt;...&lt;/div&gt;</p><p>&lt;li&gt;</p><p><span class="Apple-tab-span"></span>&lt;a href=&quot;http://www.lanrentuku.com/&quot;&gt;</p><p><span class="Apple-tab-span"></span>&lt;img src=&quot;images/12.jpg&quot; /&gt;</p><p><span class="Apple-tab-span"></span>&lt;!-- 标语 --&gt;</p><p><span class="Apple-tab-span"></span>&lt;div&gt;&lt;span&gt;Seahorse by Trevor Basset&lt;/span&gt;&lt;/div&gt;</p><p><span class="Apple-tab-span"></span>&lt;/a&gt;</p><p>&lt;/li&gt;</p><p>4、引入javascript代码</p><p><br /></p><p>$(function() {</p><p><br /></p><p><span class="Apple-tab-span"></span>$(&#39; #da-thumbs &gt; li &#39;).each( function() { $(this).hoverdir({</p><p><span class="Apple-tab-span"></span>hoverDelay : 50, // 控制延迟</p><p><span class="Apple-tab-span"></span>inverse : true // 是否反方向出现</p><p><span class="Apple-tab-span"></span>}); } );</p><p><br /></p><p>});</p><p><br /></p><p>可单独设定某个li元素</p><p>$(&#39;li&#39;).hoverdir({</p><p><span class="Apple-tab-span"></span>hoverDelay : 50, // 控制延迟</p><p><span class="Apple-tab-span"></span>inverse : true // 是否反方向出现</p><p>});</p></p>
+<p style="margin:20px 0"></p>
+</div>
+</body>
+</html>
