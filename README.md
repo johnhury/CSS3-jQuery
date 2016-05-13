@@ -5,7 +5,7 @@ CSS3+jQueryÊó±ê¸úËæÍ¼Æ¬ĞüÍ£Ğ§¹û£¬ÄÜ¹»ÅĞ¶ÏÊó±êÒÆÈëµÄ·½Ïò£¬ÕÚÕÖ¿ÉÒÔ°´ÒÆÈëµÄ·½Ïò³öÏ
 2¡¢ÒıÈëjquery.min.jsºÍmodernizr.custom.97074.js, jquery.hoverdir.js(º¯Êı¿â)
 3¡¢ÒıÈëHTML <div class="container">...</div>
 <li>
-	<a href="http://www.lanrentuku.com/">
+	<a href="#">
 		<img src="images/12.jpg" />
 		<!-- ±êÓï -->
 		<div><span>Seahorse by Trevor Basset</span></div>
